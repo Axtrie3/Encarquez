@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("depositphotos_307959448-stock-photo-crumpled-white-paper-background-close.jpg");
+    font-family: Arial;
+  }
+  
+  .game {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    border: 3px solid #ff4d6d;
+  }
+  
+  .player {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 10;
+  }
+  
+  .exit {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+  }
+  
+  .wall {
+    position: absolute;
+    background: #ff4d6d;
+    box-shadow: inset 0 0 6px #f81942;
+  }
+  
+  .win {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    z-index: 20;
+  }
+  
+  .win button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #ff4d6d;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .controls button {
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 8px;
+    background: #ffcc00;
+    font-size: 16px;
+  }

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: url("depositphotos_307959448-stock-photo-crumpled-white-paper-background-close.jpg");
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 320px;
+    position: relative;
+  }
+  
+  .cat {
+    width: 120px;
+    margin-bottom: 10px;
+    animation: float 2s ease-in-out infinite;
+  }
+  
+  .heart {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 20px;
+    animation: pop 1.5s infinite;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h1 span {
+    color: #ff4d6d;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  
+  .yes {
+    background: #ff4d6d;
+    color: white;
+  }
+  
+  .yes:hover {
+    background: #ff2f55;
+  }
+  
+  .no {
+    background: #eee;
+  }
+  
+  .no:hover {
+    background: #ddd;
+  }
+
+  .card {
+    position: relative;
+    overflow: hidden;
+  }

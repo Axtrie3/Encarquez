@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: url("depositphotos_307959448-stock-photo-crumpled-white-paper-background-close.jpg");
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 320px;
+    background: white;
+    border: 3px dashed #ff6b81;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  .gif {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    color: #6a1b9a;
+    margin-bottom: 10px;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .reward {
+    background: #ffe6f0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .reward span {
+    color: #ff2e63;
+  }
+  
+
+  .how {
+    text-align: left;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .how h3 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .start-btn {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .start-btn:hover {
+    background: #ff2f55;
+  }
